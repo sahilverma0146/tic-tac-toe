@@ -15,16 +15,7 @@ body{
     border:  none;
 
 }
-.reset-btn{
-    height: 20vh;
-    width: 40vw;
-    border-radius: 1rem;
-    border:  none;
-    font-size: 30px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
-
-}
 
 .newgame{
     height: 10vh;
@@ -37,27 +28,6 @@ body{
     justify-content:center ;
     gap: 20vh;
 }
-
-.msg {
-    color: #ffffc7;
-    font-size: 45px;
-    display: hidden;
-}
-.msg-container {
-    height: 100vmin;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 4rem;
-  }
-
-.hide{
-    display: none;
-}
-  
-
-
 
 #box1{
     /* text-align: center; */
@@ -106,11 +76,14 @@ body{
     color: #b0413e;
 }
 
-#reset-btn{
-    height: 10vh;
-    width: 10vw;
+.msg-box{
+    height: 100px;
+    width: 100px;
     border-radius: 1rem;
-    border: none;
+    border :none;
+    visibility: hidden;
     
 }
+
+
 
