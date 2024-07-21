@@ -7,6 +7,24 @@ body{
     background-color: #548687;
     text-align: center;
 }
+.new-btn{
+    margin-top: 3vh;
+    height: 15vh;
+    width: 20vw;
+    border-radius: 1rem;
+    border:  none;
+
+}
+.reset-btn{
+    height: 20vh;
+    width: 40vw;
+    border-radius: 1rem;
+    border:  none;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
 
 .newgame{
     height: 10vh;
