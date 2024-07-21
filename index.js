@@ -52,6 +52,16 @@ const checkWinner =()=>{
         if(pos1Val != "" && pos2Val !="" && pos3Val != ""){
             if(pos1Val === pos2Val && pos2Val === pos3Val){
                 console.log("winner" , pos1Val);
+                let newel = document.createElement("p")
+                newel.innerText="Congratulations!! You r a Winner";
+                console.log("winner");
+                newel.style.backgroundColor="pink";
+                newel.style.borderRadius="20px";
+                newel.style.fontSize45px;
+
+                let addel = document.querySelector(".container");
+                addel.append(newel);
+
                 // console.log("winner" , pos2Val);
                 // console.log("winner" , pos3Val);
                 disableBoxes(); 
@@ -79,4 +89,4 @@ const resetGame = () => {
   };
 
 newGameBtn.addEventListener("click", resetGame);
-resetbtn.addEventListener("click", resetGame);
+// resetbtn.addEventListener("click", resetGame);
